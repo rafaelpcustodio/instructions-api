@@ -1,0 +1,8 @@
+version: '3'
+services:
+
+  instructions-api:
+    image: rafaelpcustodio/instructions-api:latest
+    container_name: instructions-api
+    ports:
+      - "8080:8080"
